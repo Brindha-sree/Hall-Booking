@@ -49,7 +49,7 @@ let bookings = [ {
 
 //Get all rooms
 
-app.get('/rooms', (req, res) => {
+app.get('/', (req, res) => {
   res.json(rooms);
 });
 
